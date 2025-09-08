@@ -1,0 +1,14 @@
+D:\Users\arsen\source\repos\13 зд\bin\Debug\net8.0\13 зд.exe
+D:\Users\arsen\source\repos\13 зд\bin\Debug\net8.0\13 зд.deps.json
+D:\Users\arsen\source\repos\13 зд\bin\Debug\net8.0\13 зд.runtimeconfig.json
+D:\Users\arsen\source\repos\13 зд\bin\Debug\net8.0\13 зд.dll
+D:\Users\arsen\source\repos\13 зд\bin\Debug\net8.0\13 зд.pdb
+D:\Users\arsen\source\repos\13 зд\obj\Debug\net8.0\13 зд.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\arsen\source\repos\13 зд\obj\Debug\net8.0\13 зд.AssemblyInfoInputs.cache
+D:\Users\arsen\source\repos\13 зд\obj\Debug\net8.0\13 зд.AssemblyInfo.cs
+D:\Users\arsen\source\repos\13 зд\obj\Debug\net8.0\13 зд.csproj.CoreCompileInputs.cache
+D:\Users\arsen\source\repos\13 зд\obj\Debug\net8.0\13 зд.dll
+D:\Users\arsen\source\repos\13 зд\obj\Debug\net8.0\refint\13 зд.dll
+D:\Users\arsen\source\repos\13 зд\obj\Debug\net8.0\13 зд.pdb
+D:\Users\arsen\source\repos\13 зд\obj\Debug\net8.0\13 зд.genruntimeconfig.cache
+D:\Users\arsen\source\repos\13 зд\obj\Debug\net8.0\ref\13 зд.dll
