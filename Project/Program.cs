@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 class Program
 {
@@ -160,5 +160,32 @@ class Program
          
         }
         Console.WriteLine("\n" + count);
+
+        Console.WriteLine(" ");
+        Console.WriteLine("Задание 11");
+
+        int[,] num = new int[8, 5];
+        Random ran = new Random();
+        for (int i = 0; i < 8; i++)
+        {
+            for (int j = 0; j < 5; j++)
+            {
+                num[i, j] = ran.Next(10, 100);
+            }
+        }
+        Console.WriteLine("Двумерный массив 8 x 5 :");
+        for (int i = 0; i < 8; i ++)
+        {
+            for (int j = 0; j < 5; j++)
+            {
+                Console.Write(num[i, j]+ " ");
+            }
+            Console.WriteLine();
+        }
+        Console.WriteLine(" ");
+
+        Console.WriteLine("Задание 12");
+
+
     }
 }
