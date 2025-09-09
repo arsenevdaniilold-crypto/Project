@@ -4,16 +4,12 @@ class Program
 {
     static void Main()
     {
-        // Создаем массив из 20 элементов
         int[] numbers = new int[20];
-
-        // Заполняем массив с помощью нашего метода
         for (int i = 0; i < numbers.Length; i++)
         {
-            numbers[i] = GetRandomNumber(-10, 10); // Можно задать любые границы
+            numbers[i] = GetRandomNumber(-100, 100); 
         }
 
-        // Выводим массив на экран
         Console.WriteLine("Массив из 20 случайных чисел:");
         for (int i = 0; i < numbers.Length; i++)
         {
@@ -21,10 +17,10 @@ class Program
         }
     }
 
-    // Статический метод, возвращающий случайное число из отрезка [a;b]
     static int GetRandomNumber(int a, int b)
     {
         Random random = new Random();
-        return random.Next(a, b + 1); // b + 1 чтобы включить верхнюю границу
+        return random.Next(a, b + 1);
     }
+
 }
