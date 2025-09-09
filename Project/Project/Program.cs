@@ -147,6 +147,7 @@ class Program
         Console.WriteLine(" ");
 
         Console.WriteLine("Задание 10");
+        
         int[] numbers = new int[15];
         Random random = new Random();
         int count = 0;
@@ -187,13 +188,11 @@ class Program
 
         Console.WriteLine("Задание 12");
 
-        // Создаем двумерный массив 7x4
         int rows = 7;
         int cols = 4;
         int[,] array = new int[rows, cols];
         Random random1 = new Random();
 
-        // Заполняем массив случайными числами от -5 до 5
         for (int i = 0; i < rows; i++)
         {
             for (int j = 0; j < cols; j++)
@@ -202,7 +201,6 @@ class Program
             }
         }
 
-        // Выводим массив на экран
         Console.WriteLine("Двумерный массив 7x4:");
         for (int i = 0; i < rows; i++)
         {
@@ -222,10 +220,9 @@ class Program
             double product = 1;
             for (int j = 0; j < cols; j++)
             {
-                product *= Math.Abs(array[i, j]); // Произведение модулей элементов
+                product *= Math.Abs(array[i, j]);
             }
-
-            // Для первой строки инициализируем максимум
+            
             if (i == 0)
             {
                 maxProduct = product;
@@ -237,9 +234,7 @@ class Program
                 maxRowIndex = i;
             }
         }
-
-        // Выводим результат
-        Console.WriteLine($"\nИндекс строки с наибольшим по модулю произведением: {maxRowIndex + 1}");
+        Console.WriteLine($"\n Индекс строки с наибольшим по модулю произведением: {maxRowIndex + 1}");
         Console.WriteLine($"Произведение модулей элементов этой строки: {maxProduct}");
 
         Console.WriteLine(" ");
@@ -249,20 +244,17 @@ class Program
         Console.WriteLine("Задание 14");
 
         {
-            // Создаем 5 массивов
             int[][] arrays = new int[5][];
 
-            // Заполняем каждый массив из 10 элементов случайными числами
             for (int i = 0; i < arrays.Length; i++)
             {
                 arrays[i] = new int[10];
                 for (int j = 0; j < arrays[i].Length; j++)
                 {
-                    arrays[i][j] = GetRandomNumber1(1, 100); // числа от 1 до 100
+                    arrays[i][j] = GetRandomNumber1(1, 100);
                 }
             }
 
-            // Выводим все 5 массивов на экран, каждый на отдельной строке
             Console.WriteLine("5 массивов по 10 элементов каждый:");
             for (int i = 0; i < arrays.Length; i++)
             {
@@ -270,7 +262,6 @@ class Program
             }
         }
 
-        // Метод из предыдущей задачи - возвращает случайное число из отрезка [a;b]
         static int GetRandomNumber1(int a, int b)
         {
             Random random = new Random();
@@ -279,7 +270,6 @@ class Program
             return random.Next(a, b + 1);
         }
 
-        // Метод для вывода массива в строку
         static void PrintArray(int[] array)
         {
             Console.WriteLine(string.Join(" ", array));
@@ -291,18 +281,17 @@ class Program
         Console.WriteLine("Задание 15");
 
         {
-            int[] ar = { 1, 344, 251, 122, -22, 111, 901 };
+            int[] ar = { 1, 344, 251, 122, -22, 111, 901, 1007 };
 
             Console.WriteLine("Исходный массив:");
             PrintArray(ar);
 
             BubbleSort(ar);
 
-            Console.WriteLine("Отсортированный массив (пузырьковая сортировка):");
+            Console.WriteLine("Отсортированный массив (пузырь):");
             PrintArray(ar);
         }
 
-        // Пузырьковая сортировка
         static void BubbleSort(int[] ar)
         {
             {
@@ -313,7 +302,6 @@ class Program
                     {
                         if (ar[j] > ar[j + 1])
                         {
-                            // Меняем элементы местами
                             int temp = ar[j];
                             ar[j] = ar[j + 1];
                             ar[j + 1] = temp;
@@ -332,11 +320,10 @@ class Program
         Console.WriteLine("Задание 16");
 
         {
-            Console.WriteLine("🔍 Анализ производительности рекурсивного вычисления Фибоначчи");
-            Console.WriteLine("⏱️  Поиск элемента, вычисляемого дольше 60 секунд");
-            Console.WriteLine("================================================");
-
-            // Начинаем с известных быстрых значений
+            Console.WriteLine("Анализируем фибоначи");
+            Console.WriteLine("Ищет дохрена секунд ес че");
+            Console.WriteLine("==============");
+            
             int start = 30;
             int current = start;
             int step = 5;
@@ -354,16 +341,16 @@ class Program
 
                 if (seconds > 60)
                 {
-                    Console.WriteLine($"\n🎯 Найден! F({current}) вычисляется {seconds:F2} сек (> 1 мин)");
+                    Console.WriteLine($"\n Найден! F({current}) вычисляется {seconds:F2} сек (> 1 мин)");
 
                     // Уточняем точное значение
                     int precise = FindExactThreshold(current - step, current);
-                    Console.WriteLine($"📊 Точный порог: F({precise})");
+                    Console.WriteLine($"Точный порог: F({precise})");
                     break;
                 }
                 else if (seconds > 10)
                 {
-                    step = 1; // Замедляемся при приближении к пределу
+                    step = 1;
                     current += step;
                 }
                 else
@@ -371,13 +358,11 @@ class Program
                     current += step;
                 }
 
-                // Защита от бесконечного цикла
                 if (current > 100)
                     break;
             }
         }
 
-        // Поиск точного порога
         static int FindExactThreshold(int start, int end)
         {
             for (int n = start; n <= end; n++)
@@ -402,4 +387,5 @@ class Program
 
 
     }
+
 }
