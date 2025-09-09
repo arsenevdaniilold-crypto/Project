@@ -1,0 +1,14 @@
+D:\Users\arsen\source\repos\1.3 Лаба\obj\Debug\net8.0\1.3 Лаба.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\arsen\source\repos\1.3 Лаба\obj\Debug\net8.0\1.3 Лаба.AssemblyInfoInputs.cache
+D:\Users\arsen\source\repos\1.3 Лаба\obj\Debug\net8.0\1.3 Лаба.AssemblyInfo.cs
+D:\Users\arsen\source\repos\1.3 Лаба\obj\Debug\net8.0\1.3 Лаба.csproj.CoreCompileInputs.cache
+D:\Users\arsen\source\repos\1.3 Лаба\bin\Debug\net8.0\1.3 Лаба.exe
+D:\Users\arsen\source\repos\1.3 Лаба\bin\Debug\net8.0\1.3 Лаба.deps.json
+D:\Users\arsen\source\repos\1.3 Лаба\bin\Debug\net8.0\1.3 Лаба.runtimeconfig.json
+D:\Users\arsen\source\repos\1.3 Лаба\bin\Debug\net8.0\1.3 Лаба.dll
+D:\Users\arsen\source\repos\1.3 Лаба\bin\Debug\net8.0\1.3 Лаба.pdb
+D:\Users\arsen\source\repos\1.3 Лаба\obj\Debug\net8.0\1.3 Лаба.dll
+D:\Users\arsen\source\repos\1.3 Лаба\obj\Debug\net8.0\refint\1.3 Лаба.dll
+D:\Users\arsen\source\repos\1.3 Лаба\obj\Debug\net8.0\1.3 Лаба.pdb
+D:\Users\arsen\source\repos\1.3 Лаба\obj\Debug\net8.0\1.3 Лаба.genruntimeconfig.cache
+D:\Users\arsen\source\repos\1.3 Лаба\obj\Debug\net8.0\ref\1.3 Лаба.dll
