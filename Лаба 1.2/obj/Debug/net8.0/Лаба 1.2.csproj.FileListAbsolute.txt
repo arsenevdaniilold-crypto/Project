@@ -1,0 +1,14 @@
+D:\Users\arsen\source\repos\Лаба 1.2\bin\Debug\net8.0\Лаба 1.2.exe
+D:\Users\arsen\source\repos\Лаба 1.2\bin\Debug\net8.0\Лаба 1.2.deps.json
+D:\Users\arsen\source\repos\Лаба 1.2\bin\Debug\net8.0\Лаба 1.2.runtimeconfig.json
+D:\Users\arsen\source\repos\Лаба 1.2\bin\Debug\net8.0\Лаба 1.2.dll
+D:\Users\arsen\source\repos\Лаба 1.2\bin\Debug\net8.0\Лаба 1.2.pdb
+D:\Users\arsen\source\repos\Лаба 1.2\obj\Debug\net8.0\Лаба 1.2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\arsen\source\repos\Лаба 1.2\obj\Debug\net8.0\Лаба 1.2.AssemblyInfoInputs.cache
+D:\Users\arsen\source\repos\Лаба 1.2\obj\Debug\net8.0\Лаба 1.2.AssemblyInfo.cs
+D:\Users\arsen\source\repos\Лаба 1.2\obj\Debug\net8.0\Лаба 1.2.csproj.CoreCompileInputs.cache
+D:\Users\arsen\source\repos\Лаба 1.2\obj\Debug\net8.0\Лаба 1.2.dll
+D:\Users\arsen\source\repos\Лаба 1.2\obj\Debug\net8.0\refint\Лаба 1.2.dll
+D:\Users\arsen\source\repos\Лаба 1.2\obj\Debug\net8.0\Лаба 1.2.pdb
+D:\Users\arsen\source\repos\Лаба 1.2\obj\Debug\net8.0\Лаба 1.2.genruntimeconfig.cache
+D:\Users\arsen\source\repos\Лаба 1.2\obj\Debug\net8.0\ref\Лаба 1.2.dll
